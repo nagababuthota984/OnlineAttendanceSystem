@@ -1,0 +1,132 @@
+
+.box {
+    
+    
+    padding: 20px;
+    display: flex;
+    margin-left:5%;
+    
+}
+#childbox1{
+    
+   margin-left:20%;
+   background-color:silver; 
+   
+    width:15%;
+    float: left;
+    padding: 10px;
+    border-radius:2%;
+    box-shadow: 5px 7px 5px #888888;
+}  
+#childbox2{
+    background-color:silver;
+    /* border:2px solid mintcream; */
+    width:35%;
+    float: left;
+    padding: 20px;
+    border-radius:2%;
+    box-shadow: 5px 7px 5px #888888;
+}
+#options{
+    background-color: darkred;
+    margin-top:10%;
+}
+.select
+{
+    
+	width:100%;
+    justify-content: space-evenly;
+    display: flex;
+    
+	
+}
+
+#register
+{
+    width:20%;
+	background-color:white;
+	color:black;
+	border:1px solid darkslategray;
+	height:20%;
+	padding:10px;
+	text-align:center;
+	font-family:'Trebuchet MS',  Helvetica, sans-serif;
+    font-size:150%;
+	margin-left:5px;
+    border-radius:10px;
+    /* new */
+    margin:8px 0;      /*for admin login submit button*/
+
+}
+#logout{
+
+	background-color:white;
+	color:black;
+	border:1px solid darkslategray;
+    height:20%;
+
+	padding:10px;
+	text-align:center;
+	font-family:'Trebuchet MS',  Helvetica, sans-serif;
+    font-size:150%;
+    border-radius:10px;
+    
+	
+	
+
+   
+}  
+
+input{
+    width:75%;
+     border:1px solid white; 
+    border-radius:10px;
+    height:30%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin:8px 0;
+}
+
+#back{
+    width:45px;
+	background-color:white;
+	color:black;
+	border:1px solid darkslategray;
+	height:20%;
+	padding:10px;
+	text-align:center;
+	font-family:'Trebuchet MS',  Helvetica, sans-serif;
+    font-size:150%;
+    margin-left: 10px;
+    margin-right:5px;  
+    margin-top : 6px; 
+    border-radius:10px;
+   
+}
+#logout:hover
+{
+	background-color:black;
+	color:white;
+	padding:10px;
+}
+#back:hover
+{
+	background-color:maroon;
+	color:white;
+	padding:10px;
+}
+#register:hover
+{
+    background-color:teal;
+	color:white;
+	padding:10px;
+
+}
+#name
+{
+    font-family:'Trebuchet MS',  Helvetica, sans-serif;
+}
+img
+{
+    border-radius: 5px;
+}

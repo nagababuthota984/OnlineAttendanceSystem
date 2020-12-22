@@ -1,0 +1,74 @@
+ 
+.heading
+{
+	text-align : center;
+	width : 100%;
+	background-color : darkslategray;
+	color : navy;
+	font-family :"Trebuchet MS", Helvetica, sans-serif ;
+	height:15%;
+	font-size: 250%;
+	color: dodgerblue;
+	
+	
+}
+#role
+{
+	text-align:center;
+	color:white;
+	font-size:150%;
+	font-family :"Trebuchet MS", Helvetica, sans-serif ;
+
+}
+.select
+{
+	width:100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: flex-wrap;
+	
+}
+#button1
+{
+	width:50%;
+	background-color:white;
+	color:black;
+	border:2px solid darkslategray;
+	height:20%;
+	padding:10px;
+	text-align:center;
+	font-family:Helvetica;
+	font-size:150%;
+	margin-left:43%;
+	margin-right:20px;
+	border-radius:10px;
+}
+#button2
+{
+	width:50%;
+	background-color:white;
+	color:black;
+	border:2px solid darkslategray;
+	height:20%;
+	padding:10px;
+	text-align:center;
+	font-family:Helvetica;
+	font-size:150%;
+	margin-right:43%;
+	margin-left:20px;
+	border-radius:10px;
+	
+	
+}
+#button1:hover
+{
+	background-color:maroon;
+	color:white;
+	padding:10px;
+}
+#button2:hover
+{
+	background-color:maroon;
+	color:white;
+	padding:10px;
+}
