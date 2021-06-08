@@ -1,0 +1,120 @@
+.box {
+    padding: 20px;
+    display: flex;
+    
+}
+#childbox1{
+    
+    height: 25%;
+    margin-left:15%;
+     
+    width:15%;
+    float: left;
+    padding: 20px;
+}  
+#childbox2{
+    
+    width:35%;
+    float: left;
+    padding: 20px;
+}
+#options{
+    background-color: black;
+    margin-top:10%;
+}
+.select
+{
+    margin-top:20%;
+	width:100%;
+    justify-content: center;
+    display: flex;
+    flex-wrap: flex-wrap;
+	
+}
+
+#view{
+    width:45%;
+	background-color:wheat;
+	color:black;
+	border:2px solid wheat;
+	height:5%;
+	padding:10px;
+	text-align:center;
+	font-family:Helvetica;
+    font-size:100%;
+    border-radius:10px;
+	
+	
+
+   
+}  
+#mark{
+    width:47%;
+	background-color:wheat;
+	color:black;
+	border:2px solid wheat;
+	height:5%;
+	padding:10px;
+	text-align:center;
+	font-family:Helvetica;
+    font-size:100%;
+    border-radius:10px;
+	
+	
+
+   
+}  
+
+#changepassword{
+    width:47%;
+	background-color:wheat;
+	color:black;
+	border:2px solid wheat;
+	height:5%;
+	padding:10px;
+	text-align:center;
+	font-family:Helvetica;
+    font-size:100%;
+    
+	
+	border-radius:10px;
+}
+#logout{
+    width:25%;
+	background-color:wheat;
+	color:black;
+	border:2px solid wheat;
+	height:5%;
+	padding:10px;
+	text-align:center;
+	font-family:Helvetica;
+    font-size:100%;
+    
+	
+    border-radius:10px
+}
+#view:hover
+{
+	background-color:whitesmoke;
+	color:purple;
+	padding:10px;
+}
+#changepassword:hover
+{
+	background-color:whitesmoke;
+	color:midnightblue;
+	padding:10px;
+}
+#logout:hover
+{
+	background-color:whitesmoke;
+	color:green;
+	
+	padding:10px;
+}
+#mark:hover
+{
+	background-color:whitesmoke;
+	color:orangered;
+	padding:10px;
+}
